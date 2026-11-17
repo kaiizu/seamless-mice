@@ -1,0 +1,23 @@
+# Normalize working-tree line endings while keeping the repository stable.
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.editorconfig text eol=lf
+
+*.cs text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
+*.xml text eol=lf
+*.manifest text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+*.png binary
+*.ico binary
+*.msi binary
+*.cab binary
+*.zip binary

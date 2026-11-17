@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+dist/
+artifacts/
+*.msi
+*.cab
+*.zip
+*.pdb
+
+# Local tooling and reference material
+.tools/
+.reference/
+.agents/
+.codex/
+
+# Editor and IDE state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.tmp
+*.bak
+*.log
+
+# Local calibration and generated runtime files
+seamless-mice.ini
+seamless-mice.ini.bak
+editor.ini

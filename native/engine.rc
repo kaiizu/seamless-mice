@@ -1,0 +1,27 @@
+#include <windows.h>
+1 RT_MANIFEST "engine.manifest"
+101 ICON "../assets/app.ico"
+1 VERSIONINFO
+ FILEVERSION 0,2,3,0
+ PRODUCTVERSION 0,2,3,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "040904b0"
+  BEGIN
+   VALUE "CompanyName", "Seamless Mice\0"
+   VALUE "FileDescription", "Seamless Mice native cursor engine\0"
+   VALUE "FileVersion", "0.2.3.0\0"
+   VALUE "ProductName", "Seamless Mice\0"
+   VALUE "ProductVersion", "0.2.3.0\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x409, 1200
+ END
+END
