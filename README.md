@@ -99,7 +99,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File installer\verify.ps1
 - Installer runtime regressions: **20 assertions**
 - All six embedded MSI payload files match the tested binaries by SHA-256
 
-Four script-based SDK ICE checks and a real administrator install/uninstall are not exercised in the validation environment. The engine smoke test needs the installed instance closed and two connected displays.
+Four script-based SDK ICE checks were unavailable in the validation environment. The 0.2.3 MSI has been installed successfully on Windows 11; uninstall and the engine lifecycle smoke test (which needs the installed engine closed) remain untested here.
 
 ## Project layout
 
